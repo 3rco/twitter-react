@@ -9,7 +9,7 @@ export default {
 
 export const Icon = () => (
   <div className="icons">
-    <Icons.ArrowBottom />
+    <Icons.ArrowBottom style={{color:'red'}}/>
     <Icons.BookmarkFill />
     <Icons.Bookmark />
     <Icons.Emoji />
