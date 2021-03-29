@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Button from '../components/button';
-import NavButton from '../components/nav-button';
+import NavigationButton from '../components/navigation-button';
+import Navigation from '../components/navigation'
 
 export default {
   title: 'Buttons'
@@ -9,4 +10,6 @@ export default {
 
 export const Normal = () => <Button> Save </Button>
 
-export const Nav = () => <NavButton> Save </NavButton>
+export const NavButton = () => <NavigationButton> Save </NavigationButton>
+
+export const Nav = () => <Navigation />

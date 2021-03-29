@@ -35,10 +35,26 @@ module.exports = {
             importLoaders: 1,
             modules: true
           }
-        }
+        },
+        {
+          loader: require.resolve('postcss-loader'),
+          options: {
+            sourceMap: true,
+            /* config: {
+              path: './.storybook/'
+            } */
+          }
+    }
       ]
     });
 
     return newConfig;
   }
 };
+
+/* options: {
+  sourceMap: true,
+  config: {
+    path: './.storybook/'
+  }
+} */
